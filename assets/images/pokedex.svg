@@ -1,5 +1,5 @@
 <svg width="1192" height="817" viewBox="0 0 1192 817" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<path d="M885.668 192.666L747.167 122H603V759H1190V192.885H886.577H886.096L885.668 192.666Z" fill="#DC0A2D" stroke="black" stroke-width="4"/>
+<path d="M886.577 192.885H886.096L885.668 192.666L747.167 122H603V759H1190V192.885H886.577Z" fill="#DC0A2D" stroke="black" stroke-width="4"/>
 <line x1="666.552" y1="736.506" x2="666.552" y2="143.493" stroke="#89071A" stroke-width="3" stroke-linecap="round"/>
 <line x1="669.552" y1="736.506" x2="669.552" y2="143.493" stroke="black" stroke-width="3" stroke-linecap="round"/>
 <line x1="664.552" y1="736.506" x2="664.552" y2="143.493" stroke="black" stroke-width="3" stroke-linecap="round"/>
@@ -42,6 +42,11 @@
 <ellipse cx="284.581" cy="39.3028" rx="11.188" ry="11.8807" fill="#306D3B"/>
 <ellipse cx="280.368" cy="35.7707" rx="6.97436" ry="8.34862" fill="#67AB70"/>
 <ellipse cx="278.043" cy="32.7202" rx="2.32479" ry="3.05046" fill="#A0DAFE"/>
+<path d="M1150.5 598.5C1150.5 614.564 1137.92 627.5 1122.5 627.5C1107.08 627.5 1094.5 614.564 1094.5 598.5C1094.5 582.436 1107.08 569.5 1122.5 569.5C1137.92 569.5 1150.5 582.436 1150.5 598.5Z" fill="#DDDDDE" stroke="black" stroke-width="3"/>
+<path d="M1144.45 598.5C1144.45 611.496 1134.44 621.904 1122.25 621.904C1110.06 621.904 1100.05 611.496 1100.05 598.5C1100.05 585.504 1110.06 575.096 1122.25 575.096C1134.44 575.096 1144.45 585.504 1144.45 598.5Z" fill="#67AB70" stroke="black" stroke-width="3"/>
+<ellipse cx="1123.51" cy="599.899" rx="19.4145" ry="20.7064" fill="#306D3B"/>
+<ellipse cx="1116.2" cy="593.743" rx="12.1026" ry="14.5505" fill="#67AB70"/>
+<ellipse cx="1112.16" cy="588.427" rx="4.03419" ry="5.31651" fill="#A0DAFE"/>
 <path d="M2.5 176.5H290.5" stroke="black" stroke-width="4" stroke-linecap="round"/>
 <path d="M423.5 108.5L599.5 108.5" stroke="black" stroke-width="4" stroke-linecap="round"/>
 <path d="M292.641 175.978L422.978 108.359" stroke="black" stroke-width="4" stroke-linecap="round"/>
@@ -76,15 +81,19 @@
 <path d="M582 187.696C590 151.679 642 148.677 651 187.696" stroke="black" stroke-width="4"/>
 <line x1="637.5" y1="93.0346" x2="637.5" y2="31.9654" stroke="black" stroke-width="4" stroke-linecap="round"/>
 <path d="M638 32C626.445 12.0554 616.841 6.18005 596 2" stroke="black" stroke-width="4" stroke-linecap="round"/>
-<path d="M499 601H155.801L51 501.08V235C51 229.477 55.4771 225 61 225H499C504.523 225 509 229.477 509 235V591C509 596.523 504.523 601 499 601Z" fill="#DEDEDE" stroke="black" stroke-width="4"/>
+<path d="M499 225C504.523 225 509 229.477 509 235V591C509 596.523 504.523 601 499 601H155.801L51 501.08V235C51 229.477 55.4771 225 61 225H499Z" fill="#DEDEDE" stroke="black" stroke-width="4"/>
 <line x1="412" y1="528" x2="471" y2="528" stroke="black" stroke-width="4" stroke-linecap="round"/>
 <line x1="412" y1="541" x2="471" y2="541" stroke="black" stroke-width="4" stroke-linecap="round"/>
 <line x1="412" y1="554" x2="471" y2="554" stroke="black" stroke-width="4" stroke-linecap="round"/>
 <line x1="412" y1="566" x2="471" y2="566" stroke="black" stroke-width="4" stroke-linecap="round"/>
 <path d="M175.5 536.5C175.5 546.371 167.065 554.5 156.5 554.5C145.935 554.5 137.5 546.371 137.5 536.5C137.5 526.629 145.935 518.5 156.5 518.5C167.065 518.5 175.5 526.629 175.5 536.5Z" fill="#FE002B" stroke="black" stroke-width="3"/>
+<circle cx="81.5" cy="605.5" r="31" fill="#171616" stroke="black" stroke-width="3"/>
 <path d="M254.5 245C254.5 249.626 250.54 253.5 245.5 253.5C240.46 253.5 236.5 249.626 236.5 245C236.5 240.374 240.46 236.5 245.5 236.5C250.54 236.5 254.5 240.374 254.5 245Z" fill="#FE002B" stroke="black" stroke-width="3"/>
 <path d="M320.5 245C320.5 249.626 316.54 253.5 311.5 253.5C306.46 253.5 302.5 249.626 302.5 245C302.5 240.374 306.46 236.5 311.5 236.5C316.54 236.5 320.5 240.374 320.5 245Z" fill="#FE002B" stroke="black" stroke-width="3"/>
 <rect x="89" y="263" width="382" height="234" rx="10" fill="url(#pattern0)" stroke="black" stroke-width="4"/>
+<circle cx="87.5" cy="603.5" r="31" fill="#2C2C2C" stroke="black" stroke-width="3"/>
+<line x1="458.5" y1="638" x2="458.5" y2="668" stroke="#101010" stroke-width="5"/>
+<line x1="458.5" y1="690" x2="458.5" y2="720" stroke="#101010" stroke-width="5"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_9_356" transform="translate(0 -0.0362031) scale(0.00408163 0.00661979)"/>
