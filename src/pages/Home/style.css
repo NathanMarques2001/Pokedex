@@ -1,0 +1,11 @@
+@media(max-width: 430px){
+    #pokedex-desktop{
+        display: none;
+    }
+}
+
+@media(min-width: 431px){
+    #pokedex-smartphone{
+        display: none;
+    }
+}
