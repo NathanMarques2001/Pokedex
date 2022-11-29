@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.titulo {
+  font-size: 2.88rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.links li {
+  list-style: none;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: regular;
+  padding: 1rem;
+}
+
+.links li:hover {
+  background-color: #555;
+}
+
+@media (max-width: 600px) {
+  
+}
