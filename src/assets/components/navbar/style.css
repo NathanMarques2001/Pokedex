@@ -35,5 +35,10 @@
 }
 
 @media (max-width: 600px) {
-  
+  .titulo{
+    font-size: 2.2rem;
+  }
+  .links a{
+    font-size: 0.9rem;
+  }
 }
