@@ -5,3 +5,15 @@
     font-family: 'Oxanium', cursive;
     -webkit-font-smoothing: antialiased;
 }
+
+@media (min-width: 562px){
+    #smartphone{
+        display: none;
+    }
+}
+
+@media (max-width: 561px){
+    #desktop{
+        display: none;
+    }
+}

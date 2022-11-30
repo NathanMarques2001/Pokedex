@@ -1,0 +1,81 @@
+#main{
+    background: linear-gradient(0deg, #00648F 0%, rgba(0, 100, 143, 0) 15.33%), linear-gradient(180deg, #00648F 0%, rgba(0, 100, 143, 0) 23.14%), #21A4DB;
+}
+#body{
+    min-height: 100vh;
+}
+
+#div{
+    display: inline-block;
+    margin-top: 3%;
+    margin-left: 3%;
+    position: relative;
+}
+
+#pokedex{
+    width: 85%;
+    max-width: 988px;
+}
+
+#pokemon-image{
+    position: absolute;
+    bottom: 50%;
+    left: 15%;
+    height: 17%;
+}
+
+#pokemon-type{
+    position: absolute;
+    color: white;
+    bottom: 22%;
+    left: 13.5%;
+    font-size: 2.2vh;
+}
+
+#first-type, #second-type{
+    text-transform: capitalize;
+}
+
+@media (max-width: 818px){
+    #pokemon-type{
+        font-size: 9.5px;
+    }
+}
+
+#pokemon-data{
+    position: absolute;
+    color: white;
+    top: 30%;
+    right: 30%;
+    font-size: 2.5vh;
+}
+
+#pokemon-name{
+    text-transform: capitalize;
+}
+
+#write{
+    color: #0BE34C;
+}
+
+@media (max-width: 788px){
+    #pokemon-data{
+        font-size: 13px;
+    }
+}
+
+#form{
+    position: absolute;
+    width: 25%;
+    bottom: 32%;
+    left: 51%;
+}
+
+#input{
+    width: 100%;
+    text-align: center;
+    padding: 2%;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-weight: bold;
+}
