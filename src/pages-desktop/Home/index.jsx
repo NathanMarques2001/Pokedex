@@ -1,6 +1,7 @@
 import './style.css'
 import pokedex from '../../assets/images/desktop/pokedex.svg'
 import { Navbar } from '../../assets/components/navbar'
+import { Footer } from '../../assets/components/footer'
 
 export function HomeDesk() {
   return (
@@ -48,6 +49,9 @@ export function HomeDesk() {
           </div>
         </body>
       </main>
+      <footer>
+          <Footer/>
+      </footer>
     </>
   )
 }
