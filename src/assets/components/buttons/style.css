@@ -1,0 +1,24 @@
+button {
+  width: 48%;
+  padding: 3%;
+  color: white;
+  background-color: #084035;
+  border-radius: 4px;
+  box-shadow: -2px 3px 0 black;
+}
+
+button:hover {
+  background-color: #041c17;
+  cursor: pointer;
+}
+
+button:active {
+  box-shadow: inset -2px 2px 0 #80081c;
+  font-size: 0.5rem;
+}
+
+@media (max-width: 788px) {
+  button {
+    font-size: 9px;
+  }
+}
