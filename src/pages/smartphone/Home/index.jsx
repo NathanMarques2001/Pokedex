@@ -1,6 +1,6 @@
 import './style.css'
-import pokedex from '../../assets/images/smartphone/pokedex.svg'
-import { Navbar } from '../../assets/components/navbar'
+import pokedex from '../../../assets/images/smartphone/pokedex.svg'
+import { Navbar } from '../../../assets/components/navbar'
 
 export function HomeSmart() {
     return (
