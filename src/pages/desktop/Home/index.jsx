@@ -2,7 +2,9 @@ import './style.css'
 import pokedex from '../../../assets/images/desktop/pokedex.svg'
 import { Navbar } from '../../../assets/components/navbar'
 import { Footer } from '../../../assets/components/footer'
-
+import { Form } from '../../../assets/components/form'
+import { Buttons } from '../../../assets/components/buttons'
+import { List } from '../../../assets/components/list'
 export function HomeDesk() {
   return (
     <>
@@ -33,24 +35,19 @@ export function HomeDesk() {
                 <span id="pokemon-height">17 m</span>
               </p>
             </div>
-            <form id="form">
-              <input
-                type="search"
-                id="input"
-                placeholder="NOME OU NÚMERO"
-                required
-              />
-            </form>
+            <Form />
             <img
               id="pokemon-image"
               src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/6.gif"
             />
+            <Buttons />
             <img id="pokedex" src={pokedex} alt="pokedex" />
           </div>
+            <List />
         </body>
       </main>
       <footer>
-          <Footer/>
+        <Footer />
       </footer>
     </>
   )

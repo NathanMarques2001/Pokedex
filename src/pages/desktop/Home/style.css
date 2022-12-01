@@ -1,81 +1,89 @@
-#main{
-    background: linear-gradient(0deg, #00648F 0%, rgba(0, 100, 143, 0) 15.33%), linear-gradient(180deg, #00648F 0%, rgba(0, 100, 143, 0) 23.14%), #21A4DB;
+#main {
+  background: linear-gradient(0deg, #00648f 0%, rgba(0, 100, 143, 0) 15.33%),
+    linear-gradient(180deg, #00648f 0%, rgba(0, 100, 143, 0) 23.14%), #21a4db;
 }
-#body{
-    min-height: 100vh;
-}
-
-#div{
-    display: inline-block;
-    margin-top: 3%;
-    margin-left: 3%;
-    position: relative;
+#body {
+  min-height: 100vh;
 }
 
-#pokedex{
-    width: 85%;
-    max-width: 988px;
+#div {
+  display: inline-block;
+  margin-top: 3%;
+  margin-left: 3%;
+  position: relative;
 }
 
-#pokemon-image{
-    position: absolute;
-    bottom: 50%;
-    left: 15%;
-    height: 17%;
+#pokedex {
+  width: 85%;
+  max-width: 988px;
 }
 
-#pokemon-type{
-    position: absolute;
-    color: white;
-    bottom: 22%;
-    left: 13.5%;
-    font-size: 2.2vh;
+#pokemon-image {
+  position: absolute;
+  bottom: 50%;
+  left: 15%;
+  height: 17%;
 }
 
-#first-type, #second-type{
-    text-transform: capitalize;
+#pokemon-type {
+  position: absolute;
+  color: white;
+  bottom: 22%;
+  left: 13.5%;
+  font-size: 2.2vh;
 }
 
-@media (max-width: 818px){
-    #pokemon-type{
-        font-size: 9.5px;
-    }
+#first-type,
+#second-type {
+  text-transform: capitalize;
 }
 
-#pokemon-data{
-    position: absolute;
-    color: white;
-    top: 30%;
-    right: 30%;
-    font-size: 2.5vh;
+@media (max-width: 818px) {
+  #pokemon-type {
+    font-size: 9.5px;
+  }
 }
 
-#pokemon-name{
-    text-transform: capitalize;
+#pokemon-data {
+  position: absolute;
+  color: white;
+  top: 30%;
+  right: 30%;
+  font-size: 2.5vh;
 }
 
-#write{
-    color: #0BE34C;
+#pokemon-name {
+  text-transform: capitalize;
 }
 
-@media (max-width: 788px){
-    #pokemon-data{
-        font-size: 13px;
-    }
+#write {
+  color: #0be34c;
 }
 
-#form{
-    position: absolute;
-    width: 25%;
-    bottom: 32%;
-    left: 51%;
+@media (max-width: 788px) {
+  #pokemon-data {
+    font-size: 13px;
+  }
 }
 
-#input{
-    width: 100%;
-    text-align: center;
-    padding: 2%;
-    border: 2px solid black;
-    border-radius: 8px;
-    font-weight: bold;
+#form {
+  position: absolute;
+  width: 25%;
+  bottom: 32%;
+  left: 51%;
+}
+
+#button {
+  position: absolute;
+  display: flex;
+  width: 25%;
+  bottom: 25%;
+  left: 51%;
+  gap: 4%;
+}
+
+#container {
+  position: absolute;
+  top: 22%;
+  left: 82%;
 }
