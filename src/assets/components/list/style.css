@@ -18,19 +18,19 @@
 }
 
 @media (max-width: 1073px) {
-    #container{
-      position: static;
-      top: 75%;
-      text-align: center;
-    }
-    #list-title{
-      width: 35%;
-      padding: 12px;
-      margin-left: 32.5%;
-    }
-    #list-content{
-      width: 35%;
-      padding: 4px;
-      margin-left: 32.5%;
-    }
+  #container {
+    position: static;
+    top: 75%;
+    text-align: center;
+  }
+  #list-title {
+    width: 35%;
+    padding: 12px;
+    margin-left: 32.5%;
+  }
+  #list-content {
+    width: 35%;
+    padding: 4px;
+    margin-left: 32.5%;
+  }
 }
