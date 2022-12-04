@@ -11,12 +11,19 @@ export function Data({ firstType, secondType, number, name, weight, height }) {
   if (formatNumber > 100) {
     stringNumber = `${formatNumber}`
   }
+
+  var finalTypes = ''
+
+  if (secondType != '') {
+    finalTypes = `${firstType} / ${secondType}`
+  }
+  if (secondType == '') {
+    finalTypes = `${firstType}`
+  }
   return (
     <>
       <p id="pokemon-type">
-        <span id="first-type">{firstType}</span>
-        <span> / </span>
-        <span id="second-type">{secondType}</span>
+        <span id="type">{finalTypes}</span>
       </p>
       <div id="pokemon-data">
         <p id="number">
@@ -40,7 +47,7 @@ export function Data({ firstType, secondType, number, name, weight, height }) {
         <p id="height">
           <span id="write">Altura: </span>
           <span id="pokemon-height" className="pokemon-height">
-            {height}m
+            {height / 10}m
           </span>
         </p>
       </div>

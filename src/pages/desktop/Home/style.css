@@ -2,9 +2,6 @@
   background: linear-gradient(0deg, #00648f 0%, rgba(0, 100, 143, 0) 15.33%),
     linear-gradient(180deg, #00648f 0%, rgba(0, 100, 143, 0) 23.14%), #21a4db;
 }
-#main {
-  min-height: 100vh;
-}
 
 #div {
   display: inline-block;
@@ -21,7 +18,7 @@
 #pokemon-image {
   position: absolute;
   bottom: 50%;
-  left: 15%;
+  left: 13.5%;
   height: 17%;
 }
 
@@ -29,12 +26,11 @@
   position: absolute;
   color: white;
   bottom: 22%;
-  left: 13.5%;
+  left: 11.5%;
   font-size: 2.2vh;
 }
 
-#first-type,
-#second-type {
+#type{
   text-transform: capitalize;
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { HomeDesk } from './pages/desktop/Home'
 import { HomeSmart } from './pages/smartphone/Home'
-import './styles/global.css'
+import './style/global.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
