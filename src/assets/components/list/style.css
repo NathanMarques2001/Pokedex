@@ -22,6 +22,7 @@
     position: static;
     top: 75%;
     text-align: center;
+    padding: 0.5em;
   }
   #list-title {
     width: 35%;

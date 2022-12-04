@@ -1,8 +1,8 @@
-#main {
+#body {
   background: linear-gradient(0deg, #00648f 0%, rgba(0, 100, 143, 0) 15.33%),
     linear-gradient(180deg, #00648f 0%, rgba(0, 100, 143, 0) 23.14%), #21a4db;
 }
-#body {
+#main {
   min-height: 100vh;
 }
 
