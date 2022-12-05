@@ -30,7 +30,7 @@
   font-size: 2.2vh;
 }
 
-#type{
+#type {
   text-transform: capitalize;
 }
 
@@ -54,6 +54,15 @@
 
 #write {
   color: #0be34c;
+}
+
+#input {
+  width: 100%;
+  text-align: center;
+  padding: 2%;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-weight: bold;
 }
 
 @media (max-width: 788px) {

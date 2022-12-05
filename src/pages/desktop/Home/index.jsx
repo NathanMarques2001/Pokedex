@@ -2,13 +2,13 @@ import './style.css'
 import pokedex from '../../../assets/images/desktop/pokedex.svg'
 import { Navbar } from '../../../assets/components/navbar'
 import { Footer } from '../../../assets/components/footer'
-import { Form } from '../../../assets/components/form'
 import { Buttons } from '../../../assets/components/buttons'
 import { List } from '../../../assets/components/list'
 import { Data } from '../../../assets/components/data'
 import React, { useState, useEffect } from 'react'
 
 export function HomeDesk() {
+  let [searchPokemon, setSearchPokemon] = useState(1)
 
   let [pokemon, setPokemon] = useState({
     name: '',
@@ -21,9 +21,9 @@ export function HomeDesk() {
   })
 
   useEffect(() => {
-    async function fetchData(idPokemon) {
-      const response = await fetch(
-        `https://pokeapi.co/api/v2/pokemon/${idPokemon}`,
+    async function fetchData() {
+      let response = await fetch(
+        `https://pokeapi.co/api/v2/pokemon/${searchPokemon}`,
       )
       const data = await response.json()
       if (data.types.length == 1) {
@@ -54,8 +54,8 @@ export function HomeDesk() {
         })
       }
     }
-    fetchData(3);
-  }, [])
+    fetchData()
+  }, [searchPokemon])
 
   return (
     <>
@@ -71,7 +71,16 @@ export function HomeDesk() {
               weight={pokemon.weight}
               height={pokemon.height}
             />
-            <Form />
+            <form id="form">
+              <input
+                type="text"
+                id="input"
+                placeholder="NOME OU NÚMERO"
+                required
+                value={searchPokemon}
+                onChange={(e) => setSearchPokemon(e.target.value)}
+              />
+            </form>
             <img id="pokemon-image" src={pokemon.photo} />
             <Buttons />
             <img id="pokedex" src={pokedex} alt="pokedex" />
