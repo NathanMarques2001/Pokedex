@@ -18,12 +18,14 @@ export function List({ number, name }) {
     <>
       <div id="container">
         <div id="list-title">Lista de Pokémons</div>
-        <div id="list-content">
-          <span>No</span>
-          <span id="list-number">{stringNumber} </span>
-          <img src={Pokeball_List} alt="" />
-          <span id="list-name"> {name}</span>
-        </div>
+        <ul id="list-content">
+          <li>
+            <span>No</span>
+            <span id="list-number">{stringNumber} </span>
+            <img src={Pokeball_List} alt="" />
+            <span id="list-name"> {name}</span>
+          </li>
+        </ul>
       </div>
     </>
   )
