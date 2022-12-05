@@ -2,53 +2,96 @@ import './style.css'
 import pokedex from '../../../assets/images/desktop/pokedex.svg'
 import { Navbar } from '../../../assets/components/navbar'
 import { Footer } from '../../../assets/components/footer'
-import { Form } from '../../../assets/components/form'
 import { Buttons } from '../../../assets/components/buttons'
 import { List } from '../../../assets/components/list'
+import { Data } from '../../../assets/components/data'
+import React, { useState, useEffect } from 'react'
+
 export function HomeDesk() {
+  let [searchPokemon, setSearchPokemon] = useState(1)
+
+  let [pokemon, setPokemon] = useState({
+    name: '',
+    number: '',
+    weight: '',
+    height: '',
+    photo: '',
+    firstType: '',
+    secondType: '',
+  })
+
+  useEffect(() => {
+    async function fetchData() {
+      let response = await fetch(
+        `https://pokeapi.co/api/v2/pokemon/${searchPokemon}`,
+      )
+      const data = await response.json()
+      if (data.types.length == 1) {
+        setPokemon({
+          name: data.name,
+          number: data.id,
+          weight: data.weight,
+          height: data.height,
+          photo:
+            data['sprites']['versions']['generation-v']['black-white'][
+              'animated'
+            ]['front_default'],
+          firstType: data.types[0]['type']['name'],
+          secondType: '',
+        })
+      } else {
+        setPokemon({
+          name: data.name,
+          number: data.id,
+          weight: data.weight,
+          height: data.height,
+          photo:
+            data['sprites']['versions']['generation-v']['black-white'][
+              'animated'
+            ]['front_default'],
+          firstType: data.types[0]['type']['name'],
+          secondType: data.types[1]['type']['name'],
+        })
+      }
+    }
+    fetchData()
+  }, [searchPokemon])
+
   return (
     <>
-      <main id="main">
+      <body id="main">
         <Navbar />
-        <body id="body">
+        <main id="body">
           <div id="div">
-            <p id="pokemon-type">
-              <span id="first-type">fire</span>
-              <span> / </span>
-              <span id="second-type">flying</span>
-            </p>
-            <div id="pokemon-data">
-              <p id="number">
-                <span id="write">Número: </span>
-                <span id="pokemon-number">#6</span>
-              </p>
-              <p id="name">
-                <span id="write">Nome: </span>
-                <span id="pokemon-name">charizard</span>
-              </p>
-              <p id="weigth">
-                <span id="write">Peso: </span>
-                <span id="pokemon-weight">905 lbs</span>
-              </p>
-              <p id="height">
-                <span id="write">Altura: </span>
-                <span id="pokemon-height">17 m</span>
-              </p>
-            </div>
-            <Form />
-            <img
-              id="pokemon-image"
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/6.gif"
+            <Data
+              firstType={pokemon.firstType}
+              secondType={pokemon.secondType}
+              number={pokemon.number}
+              name={pokemon.name}
+              weight={pokemon.weight}
+              height={pokemon.height}
             />
+            <form id="form">
+              <input
+                type="text"
+                id="input"
+                placeholder="NOME OU NÚMERO"
+                required
+                value={searchPokemon}
+                onChange={(e) => setSearchPokemon(e.target.value)}
+              />
+            </form>
+            <img id="pokemon-image" src={pokemon.photo} />
             <Buttons />
             <img id="pokedex" src={pokedex} alt="pokedex" />
           </div>
-            <List />
-        </body>
-      </main>
+          <List name={pokemon.name} number={pokemon.number} />
+        </main>
+      </body>
       <footer>
         <Footer />
       </footer>
+      <script src="../../../app"></script>
     </>
   )
 }

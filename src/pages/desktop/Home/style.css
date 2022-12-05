@@ -1,9 +1,6 @@
-#main {
+#body {
   background: linear-gradient(0deg, #00648f 0%, rgba(0, 100, 143, 0) 15.33%),
     linear-gradient(180deg, #00648f 0%, rgba(0, 100, 143, 0) 23.14%), #21a4db;
-}
-#body {
-  min-height: 100vh;
 }
 
 #div {
@@ -21,7 +18,7 @@
 #pokemon-image {
   position: absolute;
   bottom: 50%;
-  left: 15%;
+  left: 13.5%;
   height: 17%;
 }
 
@@ -29,12 +26,11 @@
   position: absolute;
   color: white;
   bottom: 22%;
-  left: 13.5%;
+  left: 11.5%;
   font-size: 2.2vh;
 }
 
-#first-type,
-#second-type {
+#type {
   text-transform: capitalize;
 }
 
@@ -58,6 +54,15 @@
 
 #write {
   color: #0be34c;
+}
+
+#input {
+  width: 100%;
+  text-align: center;
+  padding: 2%;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-weight: bold;
 }
 
 @media (max-width: 788px) {
