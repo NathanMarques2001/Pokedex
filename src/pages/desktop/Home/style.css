@@ -18,7 +18,7 @@
 #pokemon-image {
   position: absolute;
   bottom: 50%;
-  left: 13.5%;
+  left: 14.5%;
   height: 17%;
 }
 
@@ -90,5 +90,5 @@
 #container {
   position: absolute;
   top: 22%;
-  left: 82%;
+  left: 76%;
 }

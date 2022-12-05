@@ -85,7 +85,7 @@ export function HomeDesk() {
             <Buttons />
             <img id="pokedex" src={pokedex} alt="pokedex" />
           </div>
-          <List name={pokemon.name} number={pokemon.number} />
+            <List/>
         </main>
       </body>
       <footer>
