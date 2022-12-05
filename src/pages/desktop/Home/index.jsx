@@ -57,32 +57,6 @@ export function HomeDesk() {
     fetchData()
   }, [searchPokemon])
 
-  let [pokemonList, setPokemonList] = useState([])
-  var count = 1;
-
-  function fillList() {
-    let pokeDataList = {
-      name: '',
-      number: '',
-    }
-    useEffect(() => {
-      async function fetchData() {
-        let response = await fetch(`https://pokeapi.co/api/v2/pokemon/${count}`)
-        const data = await response.json()
-          pokeDataList = {
-            name: data.name,
-            number: data.id,
-          }
-          console.log(count)
-          setPokemonList([pokeDataList])
-          count++
-      }
-      fetchData();
-    }, [])
-  }
-
-  fillList()
-
   return (
     <>
       <body id="main">
@@ -111,9 +85,7 @@ export function HomeDesk() {
             <Buttons />
             <img id="pokedex" src={pokedex} alt="pokedex" />
           </div>
-          {pokemonList.map((pokeList) => (
-            <List name={pokeList.name} number={pokeList.number} />
-          ))}
+            <List/>
         </main>
       </body>
       <footer>
