@@ -1,3 +1,6 @@
+ #container {
+  height: 30%;
+ }
 #list-title {
   background-color: #f2ec64;
   padding: 5%;
@@ -47,4 +50,7 @@ li{
     text-align: start;
     height: 50.9vh;
   }
+  #body{
+    height: auto;
+  } 
 }

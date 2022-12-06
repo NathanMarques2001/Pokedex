@@ -5,10 +5,10 @@ export function Data({ firstType, secondType, number, name, weight, height }) {
   if (formatNumber < 10) {
     stringNumber = `00${formatNumber}`
   }
-  if (formatNumber > 10 && formatNumber < 100) {
+  if (formatNumber >= 10 && formatNumber < 100) {
     stringNumber = `0${formatNumber}`
   }
-  if (formatNumber > 100) {
+  if (formatNumber >= 100) {
     stringNumber = `${formatNumber}`
   }
 

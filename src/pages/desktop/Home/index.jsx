@@ -53,6 +53,17 @@ export function HomeDesk() {
           secondType: data.types[1]['type']['name'],
         })
       }
+      if(searchPokemon > 493 || searchPokemon < 0){
+        setPokemon({
+          name: 'Valor inválido',
+          number: '0',
+          weight: '?????',
+          height: '?????',
+          photo: '',
+          firstType: '?',
+          secondType: '?',
+        })
+      }
     }
     fetchData()
   }, [searchPokemon])
