@@ -54,3 +54,9 @@ li{
     height: auto;
   } 
 }
+
+@media (max-width: 767px){
+  #list-content{
+    font-size: 0.8rem;
+  }
+}
