@@ -6,6 +6,8 @@ import { Buttons } from '../../../assets/components/buttons'
 import { List } from '../../../assets/components/list'
 import { Data } from '../../../assets/components/data'
 import React, { useState, useEffect } from 'react'
+import { AboutDesk } from '../About'
+import { ContactDesk } from '../Contact'
 
 export function HomeDesk() {
   let [searchPokemon, setSearchPokemon] = useState(1)
@@ -71,7 +73,7 @@ export function HomeDesk() {
   return (
     <>
       <body id="main">
-        <Navbar />
+        <Navbar index={<AboutDesk/>}/>
         <main id="body">
           <div id="div">
             <Data

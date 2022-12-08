@@ -1,6 +1,6 @@
 import './style.css'
 
-export function Navbar() {
+export function Navbar({index, contact, about}) {
   return (
     <>
       <nav className="navbar">
@@ -8,13 +8,13 @@ export function Navbar() {
         <div className="links">
           <ul>
             <li>
-              <a href="#">ÍNICIO</a>
+              <a href={index}>ÍNICIO</a>
             </li>
             <li>
-              <a href="#">CONTATO</a>
+              <a href={contact}>CONTATO</a>
             </li>
             <li>
-              <a href="#">SOBRE</a>
+              <a href={about}>SOBRE</a>
             </li>
           </ul>
         </div>
