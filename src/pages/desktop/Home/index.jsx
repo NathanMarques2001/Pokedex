@@ -1,13 +1,9 @@
 import './style.css'
 import pokedex from '../../../assets/images/desktop/pokedex.svg'
-import { Navbar } from '../../../assets/components/navbar'
-import { Footer } from '../../../assets/components/footer'
 import { Buttons } from '../../../assets/components/buttons'
 import { List } from '../../../assets/components/list'
 import { Data } from '../../../assets/components/data'
 import React, { useState, useEffect } from 'react'
-import { AboutDesk } from '../About'
-import { ContactDesk } from '../Contact'
 
 export function HomeDesk() {
   let [searchPokemon, setSearchPokemon] = useState(1)
@@ -55,7 +51,7 @@ export function HomeDesk() {
           secondType: data.types[1]['type']['name'],
         })
       }
-      if(searchPokemon > 493 || searchPokemon < 0){
+      if (searchPokemon > 493 || searchPokemon < 0) {
         setPokemon({
           name: 'Valor inválido',
           number: '0',
@@ -73,7 +69,6 @@ export function HomeDesk() {
   return (
     <>
       <body id="main">
-        <Navbar index={<AboutDesk/>}/>
         <main id="body">
           <div id="div">
             <Data
@@ -98,13 +93,9 @@ export function HomeDesk() {
             <Buttons />
             <img id="pokedex" src={pokedex} alt="pokedex" />
           </div>
-            <List/>
+          <List />
         </main>
       </body>
-      <footer>
-        <Footer />
-      </footer>
-      <script src="../../../app"></script>
     </>
   )
 }

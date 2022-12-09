@@ -1,0 +1,10 @@
+#loading-image{
+    animation: is-rotating 1s infinite;
+    width: 50%;
+}
+
+@keyframes is-rotating{
+    to{
+        transform: rotate(1turn);
+    }
+}
