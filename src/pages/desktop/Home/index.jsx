@@ -7,6 +7,7 @@ import React, { useState, useEffect } from 'react'
 
 export function HomeDesk() {
   const [searchPokemon, setSearchPokemon] = useState('Bulbasaur')
+  const [count, setCount] = useState(1)
   const [pokemon, setPokemon] = useState({
     name: '',
     number: '',
@@ -25,17 +26,6 @@ export function HomeDesk() {
       let response = await fetch(
         `https://pokeapi.co/api/v2/pokemon/${searchPokemon.toLowerCase()}`,
       )
-      if (response.status === 404) {
-        setPokemon({
-          name: 'Valor inválido',
-          number: 0,
-          weight: '?????',
-          height: '?????',
-          photo: '',
-          firstType: '?',
-          secondType: '?',
-        })
-      }
       const data = await response.json()
       setCount(data.id)
 
@@ -81,25 +71,12 @@ export function HomeDesk() {
     fetchData()
   }, [searchPokemon])
 
-  const [count, setCount] = useState(1)
-
   useEffect(() => {
     async function fetchData() {
       setPokemon({
         photo: loading,
       })
       let response = await fetch(`https://pokeapi.co/api/v2/pokemon/${count}`)
-      if (response.status === 404) {
-        setPokemon({
-          name: 'Valor inválido',
-          number: '0',
-          weight: '?????',
-          height: '?????',
-          photo: '',
-          firstType: '?',
-          secondType: '?',
-        })
-      }
       const data = await response.json()
 
       if (data.types.length == 1) {
