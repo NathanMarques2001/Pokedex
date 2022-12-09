@@ -10,7 +10,6 @@ export function List() {
 
   useEffect(() => {
     async function fetchData(id) {
-      console.log(id)
       let response = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
       const data = await response.json()
       setPokemonList((prevList) => [...prevList, data])
@@ -32,7 +31,8 @@ export function List() {
           {loading && (
             <div id="loading-list">
               <Loading />
-            </div>)}
+            </div>
+          )}
           {pokemonList.map((pokemonData) => (
             <li>
               {!loading && (
