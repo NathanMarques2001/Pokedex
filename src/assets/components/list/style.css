@@ -1,3 +1,7 @@
+#container {
+  height: 30%;
+  width: 40vh;
+}
 #list-title {
   background-color: #f2ec64;
   padding: 5%;
@@ -22,10 +26,16 @@
   text-transform: capitalize;
 }
 
-li{
+li {
   list-style-type: none;
 }
 
+#loading-list {
+  height: 73vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 @media (max-width: 1147px) {
   #container {
@@ -34,6 +44,7 @@ li{
     text-align: center;
     padding: 0.5em;
     max-width: 85%;
+    width: auto;
   }
   #list-title {
     width: 35%;
@@ -46,5 +57,17 @@ li{
     margin-left: 32.5%;
     text-align: start;
     height: 50.9vh;
+  }
+  #body {
+    height: auto;
+  }
+  #loading-list {
+    height: 45vh;
+  }
+}
+
+@media (max-width: 767px) {
+  #list-content {
+    font-size: 0.8rem;
   }
 }

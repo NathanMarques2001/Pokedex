@@ -1,6 +1,7 @@
 #body {
   background: linear-gradient(0deg, #00648f 0%, rgba(0, 100, 143, 0) 15.33%),
     linear-gradient(180deg, #00648f 0%, rgba(0, 100, 143, 0) 23.14%), #21a4db;
+  height: 100vh;
 }
 
 #div {
@@ -44,7 +45,7 @@
   position: absolute;
   color: white;
   top: 30%;
-  right: 30%;
+  left: 58%;
   font-size: 2.5vh;
 }
 
@@ -76,6 +77,31 @@
   width: 25%;
   bottom: 32%;
   left: 51%;
+}
+
+button {
+  width: 48%;
+  padding: 3%;
+  color: white;
+  background-color: #084035;
+  border-radius: 4px;
+  box-shadow: -2px 3px 0 black;
+}
+
+button:hover {
+  background-color: #041c17;
+  cursor: pointer;
+}
+
+button:active {
+  box-shadow: inset -2px 2px 0 #80081c;
+  font-size: 0.5rem;
+}
+
+@media (max-width: 788px) {
+  button {
+    font-size: 9px;
+  }
 }
 
 #button {
