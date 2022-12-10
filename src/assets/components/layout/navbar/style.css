@@ -5,6 +5,8 @@
   background-color: black;
   color: white;
   padding: 0.5rem;
+  top: 0;
+  z-index: 9;
 }
 
 .titulo {
