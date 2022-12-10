@@ -19,3 +19,15 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #e1e1e1;
 }
+
+@media (min-width: 601px) {
+  #smartphone {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  #desktop {
+    display: none;
+  }
+}
