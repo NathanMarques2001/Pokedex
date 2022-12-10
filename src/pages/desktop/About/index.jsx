@@ -17,7 +17,7 @@ export function AboutDesk() {
             </strong>{' '}
             O projeto Pokédex foi desenvolvido utilizando o Figma para criar o
             frontend do projeto, a API PokeAPI que faz a busca dos dados dos
-            Pokémon e as tecnologias: HTML, CSS e JavaScript. O projeto foi
+            Pokémon e as tecnologias: HTML, CSS e ReactJS. O projeto foi
             realizado com o intuito de aprender mais sobre o consumo de APIs e ReactJS.
           </div>
         </div>

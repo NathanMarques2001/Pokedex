@@ -71,7 +71,10 @@ export function HomeDesk() {
   useEffect(() => {
     async function fetchData() {
       setPokemon({
+        name: '',
         photo: loading,
+        firstType: '',
+        secondType: '',
       })
       let response = await fetch(`https://pokeapi.co/api/v2/pokemon/${count}`)
       const data = await response.json()
