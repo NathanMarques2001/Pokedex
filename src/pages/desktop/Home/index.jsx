@@ -20,9 +20,6 @@ export function HomeDesk() {
 
   useEffect(() => {
     async function fetchData() {
-      setPokemon({
-        photo: loading,
-      })
       let response = await fetch(
         `https://pokeapi.co/api/v2/pokemon/${searchPokemon.toLowerCase()}`,
       )
