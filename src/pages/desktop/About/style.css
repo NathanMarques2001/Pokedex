@@ -1,0 +1,36 @@
+#about-main {
+    display: flex;
+    background-color: #fe002b;
+  }
+
+#background {
+  width: 100%;
+  height: 100vh;
+  padding: 1rem;
+}
+
+#line1,
+#line2,
+#line3,
+#line4 {
+  background-color: black;
+  height: 100vh;
+  width: 15px;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+#text-limit{
+    position: absolute;
+    width: 40%;
+    bottom: 23%;
+    left: 33%;
+    height: 50%;
+}
+#text-about{
+    font-size: 20px;
+    text-align: center;
+}
+#title-about{
+    font-size: 24px;
+}
