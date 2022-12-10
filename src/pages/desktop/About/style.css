@@ -1,12 +1,16 @@
 #about-main {
-    display: flex;
-    background-color: #fe002b;
-  }
+  display: flex;
+  background-color: #fe002b;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
 
 #background {
-  width: 100%;
+  width: 85%;
   height: 100vh;
   padding: 1rem;
+  max-width: 1000px;
 }
 
 #line1,
@@ -20,17 +24,39 @@
   margin-left: 2rem;
 }
 
-#text-limit{
-    position: absolute;
-    width: 35%;
-    bottom: 25%;
-    left: 35%;
-    height: 40%;
+#text-limit {
+  position: absolute;
+  width: 35%;
+  bottom: 25%;
+  left: 35%;
+  height: 40%;
 }
-#text-about{
+#text-about {
+  font-size: 20px;
+  text-align: center;
+}
+#title-about {
+  font-size: 24px;
+}
+@media (max-width: 1023px) {
+  #background {
+    width: 100%;
+  }
+  #text-limit {
+    width: 50%;
+    bottom: 20%;
+    left: 30%;
+  }
+}
+
+@media (max-width: 767px) {
+  #text-about {
+    font-size: 16px;
+  }
+  #title-about {
     font-size: 20px;
-    text-align: center;
-}
-#title-about{
-    font-size: 24px;
+  }
+  #text-limit {
+    bottom: 18%;
+  }
 }
