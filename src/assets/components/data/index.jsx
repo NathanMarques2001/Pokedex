@@ -1,3 +1,5 @@
+import './style.css'
+
 export function Data({ firstType, secondType, number, name, weight, height }) {
   var formatNumber = number
   var stringNumber = ''
@@ -31,6 +33,7 @@ export function Data({ firstType, secondType, number, name, weight, height }) {
           <span id="pokemon-number" className="pokemon-number">
             #{stringNumber}
           </span>
+          <span id="divider-smart"> -&nbsp;</span>
         </p>
         <p id="name">
           <span id="write">Nome: </span>
