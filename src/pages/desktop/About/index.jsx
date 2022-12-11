@@ -1,13 +1,13 @@
 import './style.css'
-import ABG from '../../../assets/images/desktop/AboutBG.svg'
+import ABGD from '../../../assets/images/desktop/AboutBG.svg'
 
 export function AboutDesk() {
   return (
     <>
       <div id="about-main">
-        <div id="line1-a"> </div>
-        <div id="line2-a"> </div>
-        <img id="background-about" src={ABG} alt="background" />
+        <div id="line1-ad"> </div>
+        <div id="line2-ad"> </div>
+        <img id="background-about" src={ABGD} alt="background" />
         <div id="text-limit">
           <div id="text-about">
             <strong id="title-about">
@@ -20,8 +20,8 @@ export function AboutDesk() {
             realizado com o intuito de aprender mais sobre ReactJS e o consumo de APIs.
           </div>
         </div>
-        <div id="line3-a"> </div>
-        <div id="line4-a"> </div>
+        <div id="line3-ad"> </div>
+        <div id="line4-ad"> </div>
       </div>
     </>
   )
