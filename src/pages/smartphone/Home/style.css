@@ -1,0 +1,87 @@
+#main-container-smart {
+  background: linear-gradient(0deg, #00648f 0%, rgba(0, 100, 143, 0) 38.41%),
+    linear-gradient(180deg, #00648f 0%, rgba(0, 100, 143, 0) 12.35%), #21a4db;
+  height: 100vh;
+}
+
+#div-content-smart {
+  display: inline-block;
+  margin-top: 5%;
+  margin-left: 5%;
+  position: relative;
+}
+
+#pokedex-smart {
+  width: 90%;
+  max-width: 570px;
+}
+
+#pokemon-image-smart {
+  position: absolute;
+  bottom: 49.5%;
+  left: 30%;
+  height: 14%;
+}
+
+@media (max-width: 600px) {
+  #pokemon-data {
+    font-size: 1rem;
+    top: 60%;
+    left: 20%;
+    font-weight: bold;
+  }
+}
+
+#input-smart {
+  width: 100%;
+  text-align: center;
+  padding: 2%;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+#form-smart {
+  position: absolute;
+  width: 65%;
+  bottom: 22.5%;
+  left: 7.5%;
+}
+
+#button-smart {
+  position: absolute;
+  display: flex;
+  width: 65%;
+  bottom: 14%;
+  left: 7.5%;
+  gap: 4%;
+}
+
+@media (max-width: 600px) {
+  #container {
+    position: static;
+    top: 75%;
+    text-align: center;
+    padding: 0.5em;
+    max-width: 85%;
+    width: auto;
+  }
+  #list-title {
+    width: 65%;
+    padding: 12px;
+    margin-left: 25%;
+  }
+  #list-content {
+    width: 65%;
+    padding: 4px;
+    margin-left: 25%;
+    text-align: start;
+    height: 50.9vh;
+  }
+  #main-container-smart {
+    height: auto;
+  }
+  #loading-list {
+    height: 45vh;
+  }
+}

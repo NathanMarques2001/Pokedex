@@ -1,0 +1,19 @@
+#shape {
+  background-color: black;
+  height: 10vh;
+  text-align: center;
+  padding: 1.5em;
+  z-index: 9;
+  bottom: 0;
+}
+
+#footer-write {
+  color: white;
+  font-weight: 300;
+}
+
+@media (max-width: 786px) {
+  #footer-write {
+    font-size: 14px;
+  }
+}
