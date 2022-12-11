@@ -48,8 +48,8 @@
   color: white;
 }
 
-a{
-    color: white;
+a {
+  color: white;
 }
 
 #pokeballContact {
@@ -63,26 +63,26 @@ a{
 }
 
 @media (max-width: 1023px) {
-    #text-container {
-        width: 65%;
-        bottom: 30%;
-        left: 15%;
-        height: 35%;
-      }
+  #text-container {
+    width: 65%;
+    bottom: 30%;
+    left: 15%;
+    height: 35%;
+  }
 }
 
 @media (max-width: 767px) {
-    #text-contact {
-        font-size: 1rem;
-      }
-      #pokeballContact {
-        padding: 12%;
-        width: 70px;
-      }
-      #text-container {
-        width: 82.5%;
-        bottom: 34%;
-        left: 9%;
-        height: 25%;
-      }
+  #text-contact {
+    font-size: 1rem;
+  }
+  #pokeballContact {
+    padding: 12%;
+    width: 70px;
+  }
+  #text-container {
+    width: 82.5%;
+    bottom: 34%;
+    left: 9%;
+    height: 25%;
+  }
 }

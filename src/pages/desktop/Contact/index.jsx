@@ -1,5 +1,5 @@
 import './style.css'
-import CBG from '../../../assets/images/desktop/ContactBG.svg'
+import CBGD from '../../../assets/images/desktop/ContactBG.svg'
 import pokeballContact from '../../../assets/images/desktop/pokebola-G.svg'
 
 export function ContactDesk() {
@@ -8,7 +8,7 @@ export function ContactDesk() {
       <div id="contact-main">
         <div id="line1-c"> </div>
         <div id="line2-c"> </div>
-        <img src={CBG} alt="background" id="background-contact" />
+        <img src={CBGD} alt="background" id="background-contact" />
         <div id="text-container">
           <div id="text-contact">
             {' '}
@@ -18,7 +18,10 @@ export function ContactDesk() {
               </span>
               <span>LINKEDIN</span>
               <span id="link">
-                <a href="https://www.linkedin.com/in/nathan-marques-1a7818244/" target='_blank'>
+                <a
+                  href="https://www.linkedin.com/in/nathan-marques-1a7818244/"
+                  target="_blank"
+                >
                   LinkedIn Nathan
                 </a>
               </span>
@@ -29,7 +32,7 @@ export function ContactDesk() {
               </span>
               <span>GITHUB</span>
               <span id="link">
-                <a href="https://github.com/NathanMarques2001" target='_blank'>
+                <a href="https://github.com/NathanMarques2001" target="_blank">
                   GitHub Nathan
                 </a>
               </span>

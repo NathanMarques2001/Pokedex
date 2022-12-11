@@ -12,12 +12,14 @@ export function AboutDesk() {
           <div id="text-about">
             <strong id="title-about">
               {' '}
-              SOBRE O PROJETO <br /><br />
+              SOBRE O PROJETO <br />
+              <br />
             </strong>{' '}
             O projeto Pokédex foi desenvolvido utilizando o Figma para modelar o
             frontend do projeto, a API PokeAPI para fazer a busca dos dados dos
             Pokémon e as tecnologias: HTML, CSS, ReactJS e GIT. O projeto foi
-            realizado com o intuito de aprender mais sobre ReactJS e o consumo de APIs.
+            realizado com o intuito de aprender mais sobre ReactJS e o consumo
+            de APIs.
           </div>
         </div>
         <div id="line3-ad"> </div>
