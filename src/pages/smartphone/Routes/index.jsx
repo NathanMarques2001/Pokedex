@@ -11,7 +11,7 @@ export function RoutesSmartphone() {
       <Router>
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<HomeSmart />} />
+          <Route path="/Pokedex" element={<HomeSmart />} />
           <Route path="/contact" element={<ContactSmart />} />
           <Route path="/about" element={<AboutSmart />} />
         </Routes>

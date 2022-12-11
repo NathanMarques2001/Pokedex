@@ -11,7 +11,7 @@ export function RoutesDesktop() {
       <Router>
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<HomeDesk />} />
+          <Route path="/Pokedex" element={<HomeDesk />} />
           <Route path="/contact" element={<ContactDesk />} />
           <Route path="/about" element={<AboutDesk />} />
         </Routes>

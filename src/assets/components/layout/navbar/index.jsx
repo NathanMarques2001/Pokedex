@@ -9,7 +9,7 @@ export function Navbar() {
         <div className="links">
           <ul>
             <li>
-              <Link to="/">ÍNICIO</Link>
+              <Link to="/Pokedex">ÍNICIO</Link>
             </li>
             <li>
               <Link to="/contact">CONTATO</Link>
