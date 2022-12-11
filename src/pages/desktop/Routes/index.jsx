@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { Navbar } from '../../../assets/components/layout/navbar'
 import { Footer } from '../../../assets/components/layout/footer'
 import { HomeDesk } from '../Home'

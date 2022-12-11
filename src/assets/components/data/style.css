@@ -1,0 +1,40 @@
+#pokemon-type {
+  position: absolute;
+  color: white;
+}
+
+#type {
+  text-transform: capitalize;
+}
+
+#pokemon-data {
+  position: absolute;
+  color: white;
+}
+
+#pokemon-name {
+  text-transform: capitalize;
+}
+
+#write {
+  color: #0be34c;
+}
+
+@media (max-width: 600px) {
+  #pokemon-type,
+  #write,
+  #pokemon-weight,
+  #pokemon-height {
+    display: none;
+  }
+  #pokemon-data {
+    color: black;
+    display: flex;
+  }
+}
+
+@media (min-width: 601px) {
+  #divider-smart {
+    display: none;
+  }
+}
