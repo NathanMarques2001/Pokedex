@@ -126,7 +126,7 @@ export function HomeDesk() {
       <body id="main">
         <main id="body">
           <div id="div">
-          <Data
+            <Data
               firstType={pokemon.firstType}
               secondType={pokemon.secondType}
               number={pokemon.number}

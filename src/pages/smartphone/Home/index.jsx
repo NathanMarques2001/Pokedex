@@ -74,12 +74,48 @@ export function HomeSmart() {
       <body id="body-smart">
         <main id="main-container-smart">
           <div id="div-content-smart">
-            <div id="pokemon-data-smart">
-              <Data number={pokemon.number} name={pokemon.name} />
-            </div>
+            <Data number={pokemon.number} name={pokemon.name} />
+            <form
+              id="form-smart"
+              onSubmit={(e) => {
+                e.preventDefault()
+              }}
+            >
+              <input
+                type="text"
+                id="input-smart"
+                placeholder="NOME OU NÚMERO"
+                required
+                onChange={(e) => setSearchPokemon(e.target.value)}
+              />
+            </form>
             <img id="pokemon-image-smart" src={pokemon.photo} />
+            <div id="button-smart">
+              <button
+                id="previous"
+                onClick={() => {
+                  if (count > 1) {
+                    setCount(count - 1)
+                  }
+                }}
+              >
+                {' '}
+                &lt; ANTERIOR
+              </button>
+              <button
+                id="next"
+                onClick={() => {
+                  if (count < 493) {
+                    setCount(count + 1)
+                  }
+                }}
+              >
+                PRÓXIMO &gt;
+              </button>
+            </div>
             <img id="pokedex-smart" src={pokedex} alt="pokedex" />
           </div>
+          <List />
         </main>
       </body>
     </>

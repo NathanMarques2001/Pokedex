@@ -3,9 +3,9 @@ import './style.css'
 export function Footer() {
   return (
     <>
-      <div id="shape">
+      <footer id="shape">
         <p id="footer-write">Desenvolvido por Nathan Marques</p>
-      </div>
+      </footer>
     </>
   )
 }

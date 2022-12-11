@@ -1,6 +1,7 @@
 #container {
   height: 30%;
   width: 40vh;
+  position: absolute;
 }
 #list-title {
   background-color: #f2ec64;
