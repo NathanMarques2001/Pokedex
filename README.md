@@ -1,6 +1,6 @@
 # Pokédex
 
-!(FOTO DE CAPA POKEDEX)
+![preview](./readme-assets/Capa.png)
 
 A Pokédex é uma aplicação que traz dados sobre o Pokémon escolhido pelo usuário. Os pokémon presentes nela estão limitados até a quarta geração, ou seja, até o pokémon de número 493.
 
