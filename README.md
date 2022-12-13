@@ -17,18 +17,18 @@ O projeto Pokédex foi desenvolvido com o objetivo de desenvolver as habilidades
 - ViteJS
 - GIT e Github
 
-># 📋 Processo  
+>## 📋 Processo  
 
-### Design System  
+### 🖼 Design System  
 Utilizando o [(Figma)](https://www.figma.com/), modelei página a página, os componentes e como estes devem se comportar em função da interação do usuário com os mesmos. 
 
-### Pokédex Figma  
+### 🧧 Pokédex Figma  
 O intuito das pokédex modeladas no Figma era que elas tivessem espaçamento para inserir um campo input de texto e dois botões, além dos dados dos pokémon.
 Equanto o modelo de desktop traz alguns dados, o modelo de Smartphone traz somente o número, nome e imagem do pokémon.
 
 ![preview](./readme-assets/Pokedex-Figma.png)
 
-- Código
+### Código
 Após ter feito toda a pré-produção, baixei as imagens que seriam inseridas no projeto e codei.
 
 > Como funciona a Pokédex?
