@@ -2,7 +2,7 @@
 
 ![preview](./readme-assets/Capa.png)
 
-A Pokédex é uma aplicação que traz dados sobre o Pokémon escolhido pelo usuário. Os pokémon presentes nela estão limitados até a quarta geração, ou seja, até o pokémon de número 493.
+A Pokédex é uma aplicação que traz dados sobre o pokémon escolhido pelo usuário. Os pokémon presentes nela estão limitados até a quarta geração, ou seja, até o pokémon de número 493.
 
 O projeto Pokédex foi desenvolvido com o objetivo de desenvolver as habilidades com o framework ReactJS e consumo de APIs.
 
@@ -24,7 +24,7 @@ Utilizando o [Figma](https://www.figma.com/), modelei página a página, os comp
 
 ### 🧧 Pokédex Figma  
 O intuito das pokédex modeladas no Figma era que elas tivessem espaçamento para inserir um campo input de texto e dois botões, além dos dados dos pokémon.
-Equanto o modelo de desktop traz alguns dados, o modelo de Smartphone traz somente o número, nome e imagem do pokémon.
+Equanto o modelo de desktop traz alguns dados, o modelo de smartphone traz somente o número, nome e imagem do pokémon.
 
 ![preview](./readme-assets/Pokedex-Figma.png)
 
