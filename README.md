@@ -20,7 +20,7 @@ O projeto Pokédex foi desenvolvido com o objetivo de desenvolver as habilidades
 >## 📋 Processo  
 
 ### 🖼 Design System  
-Utilizando o [(Figma)](https://www.figma.com/), modelei página a página, os componentes e como estes devem se comportar em função da interação do usuário com os mesmos. 
+Utilizando o [Figma](https://www.figma.com/), modelei página a página, os componentes e como estes devem se comportar em função da interação do usuário com os mesmos. 
 
 ### 🧧 Pokédex Figma  
 O intuito das pokédex modeladas no Figma era que elas tivessem espaçamento para inserir um campo input de texto e dois botões, além dos dados dos pokémon.
@@ -44,7 +44,7 @@ O usuário insere um nome ou número do pokémon que deseja ver as informações
 ![preview](./readme-assets/Lista.PNG)
 
 >## 📡 De onde saem os dados?
-Os dados são buscados na API [!(PokéAPI)](https://pokeapi.co/), utilizando o fetch do JavaScript.
+Os dados são buscados na API [PokéAPI](https://pokeapi.co/), utilizando o fetch do JavaScript.
 
 >## 🗃 Outras páginas
 Também estão inclusas na aplicação uma página "Sobre", que traz algumas informações sobre o projeto. E, uma página "Contato", que têm alguns links para entrar em contato comigo!
