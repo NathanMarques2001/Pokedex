@@ -40,7 +40,7 @@ O usuário insere um nome ou número do pokémon que deseja ver as informações
 > Versão smartphone  
 ![preview](./readme-assets/Dados-Smartphone.PNG)
 
-> Para auxiliar o usuário foi inserido uma lista de pokémons, com seus números e nomes.
+> Para auxiliar o usuário foi inserido uma lista de pokémons, com seus números e nomes.  
 ![preview](./readme-assets/Lista.PNG)
 
 > De onde saem os dados?
