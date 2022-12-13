@@ -37,8 +37,7 @@ O usuário insere um nome ou número do pokémon que deseja ver as informações
 > Versão desktop
 ![preview](./readme-assets/Dados-Desktop.PNG)
 
-> Versão smartphone
-
+> Versão smartphone  
 ![preview](./readme-assets/Dados-Smartphone.PNG)
 
 > Para auxiliar o usuário foi inserido uma lista de pokémons, com seus números e nomes.
