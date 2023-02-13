@@ -35,7 +35,8 @@ Após ter feito toda a pré-produção, baixei as imagens que seriam inseridas n
 O usuário insere um nome ou número do pokémon que deseja ver as informações, se o valor for válido o pokémon aparece no display com seus respectivos dados.
 
 >### Versão desktop
-![preview](./readme-assets/Dados-Desktop.PNG)
+
+https://user-images.githubusercontent.com/108840944/218568784-64b8200f-5916-405a-a534-8813aa670bdc.mp4
 
 >### Versão smartphone  
 ![preview](./readme-assets/Dados-Smartphone.PNG)
